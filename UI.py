@@ -1,4 +1,3 @@
-requirements.txt
 import streamlit as st
 import pickle
 from sklearn.compose import make_column_transformer
