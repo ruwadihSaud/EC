@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
-from sklearn.compose import make_column_transformer
+#from sklearn.compose import make_column_transformer
 from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder, StandardScaler
 import datetime
 from PIL import Image, ImageDraw
