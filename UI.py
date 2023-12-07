@@ -2,8 +2,6 @@ import streamlit as st
 import pickle
 from sklearn.compose import make_column_transformer
 import pandas as pd
-
-from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder, StandardScaler
 import datetime
 from PIL import Image, ImageDraw
 import time
@@ -12,6 +10,7 @@ import sklearn
 from sklearn.ensemble import RandomForestClassifier
 import nltk
 import sklearn
+from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder, StandardScaler
 
 
 
